@@ -44,6 +44,17 @@ body {
   transition: 0.3s;
 }
 
+.gray-button {
+  background-color: gray;
+  cursor: default;
+  color: #343a40;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
 .button:hover {
   background-color: var(--color-dark);
 }
